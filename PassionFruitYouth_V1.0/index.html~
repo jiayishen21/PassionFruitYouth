@@ -39,11 +39,24 @@
       </video>
 
       <div class="container d-flex justify-content-center home-container">
-        <h1 class="text-center home-title">FIND<br>YOUR<br>PASSION<h1>
+        <h1 class="text-center home-title">Find<br>Your<br>Passion<h1>
       </div>
     </div>
 
-    
+    <div class="container-fluid my-5 py-5">
+      <div class="row">
+        <div class="container py-3 col-10 col-lg-5 justify-content-center container-about">
+  	    <h2 class="text-center text-light">Lorem ipsum dolor</h2>
+	    <h4 class="text-center text-light lead">Lorem ipsum dolor sit amet</h4>
+	    <p class="text-center text-light description-small px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta, urna quis tristique placerat, felis diam dictum sapien, ac convallis magna nibh ut risus. Suspendisse et neque et orci dapibus tincidunt quis sit amet libero. Pellentesque gravida odio vel enim mollis, ut luctus nunc fringilla. Aliquam pulvinar luctus lacus, ut condimentum nulla pretium quis. Quisque ipsum lectus, ultrices id massa consequat, congue egestas turpis. Suspendisse varius eleifend lorem, a ultrices neque eleifend sed. Nulla facilisi. Cras et elementum leo.</p>
+        
+	 </div>
+
+        <div class="container col-10 col-lg-5 justify-content-center container-about" style="padding: 0px">
+	  <img src="Images/About.jpg" class="img-fluid" alt="About">
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -36,6 +36,16 @@ a:hover.navbar-link {
 }
 
 .home-title {
-  font-family: sans-serif;
+  font-family: "TrendSansW00-Four", Times New Roman;
   font-size: 70px;
 }
+
+.container-about {
+  background-color: #ffaa80;
+}
+
+.description-small {
+  font-size: 15px;
+}
+
+
