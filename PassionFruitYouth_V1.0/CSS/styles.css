@@ -41,6 +41,8 @@ a:hover.navbar-link {
 }
 
 .container-about {
+  display: flex;
+  align-items: center;
   background-color: #ffaa80;
 }
 

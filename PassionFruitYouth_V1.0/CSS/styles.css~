@@ -41,12 +41,9 @@ a:hover.navbar-link {
 }
 
 .container-about {
+  display: flex;
+  align-items: center;
   background-color: #ffaa80;
-}
-
-.container-about-inner {
-  position:absolute;
-  top: 35%;
 }
 
 .description-small {
