@@ -53,4 +53,18 @@ a:hover.navbar-link {
   font-size: 15px;
 }
 
+.font-card {
+  font-size: 17px;
+}
 
+.card {
+  border-radius: 0px;
+}
+
+.card-img-top {
+  border-radius: 0px;
+}
+
+.event-title {
+  font-size: 70px;
+}

@@ -43,9 +43,9 @@
       </div>
     </div>
 
-    <div class="container-fluid my-5 py-5">
+    <div class="container-fluid mt-5 py-5">
       <div class="row">
-        <div class="container px-0 col-10 col-lg-5 justify-content-center container-about orange">
+        <div class="container my-5 px-0 py-5 py-lg-0 col-10 col-lg-5 justify-content-center container-about orange">
 	  <div>
   	    <h2 class="text-center text-light">Lorem ipsum dolor</h2>
 	    <h4 class="text-center text-light lead">Lorem ipsum dolor sit amet</h4>
@@ -53,10 +53,50 @@
            </div>
 	 </div>
 
-        <div class="container px-0 col-10 col-lg-5 justify-content-center">
+        <div class="container my-5 px-0 col-10 col-lg-5 justify-content-center">
 	  <img src="Images/About.jpg" class="img-fluid" alt="About">
         </div>
       </div>
+    </div>
+
+    <div class="container pb-5">
+      <h2 class="text-center home-title">Upcoming Events</h2>
+    </div>
+
+    <div class="container-fluid justify-content-center my-5">
+    <div class="container col-11">
+      <div class="row">
+	<div class="my-4 my-xl-0 offset-1 offset-xl-0 col-10 col-xl-4">
+	  <div class="card">
+            <img class="card-img-top img-fluid" src="Images/Minecraft.jpg" alt="Minecraft">
+	    <div class="card-block mx-5 my-4">
+              <h3>Lorem ipsum dolor</h1>
+	      <p class="lead font-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mattis tortor, ac porta urna finibus ut. Nam nec euismod lacus, ac pellentesque lorem. Cras metus tortor, dignissim sit amet diam vel, egestas tempor metus. Mauris sit amet turpis a velit rhoncus aliquam vel quis magna. Etiam in eleifend ligula. Quisque vitae aliquam sem, lacinia rutrum urna. Morbi quis aliquam magna. Aliquam et neque neque.</p>
+	    </div>
+	  </div>
+	</div>
+	<div class="my-4 my-xl-0 offset-1 offset-xl-0 col-10 col-xl-4">
+	  <div class="card">
+            <img class="card-img-top img-fluid" src="Images/Minecraft.jpg" alt="Minecraft">
+	    <div class="card-block mx-5 my-4">
+              <h3>Lorem ipsum dolor</h1>
+	      <p class="lead font-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mattis tortor, ac porta urna finibus ut. Nam nec euismod lacus, ac pellentesque lorem. Cras metus tortor, dignissim sit amet diam vel, egestas tempor metus. Mauris sit amet turpis a velit rhoncus aliquam vel quis magna. Etiam in eleifend ligula. Quisque vitae aliquam sem, lacinia rutrum urna. Morbi quis aliquam magna. Aliquam et neque neque.</p>
+	     
+	    </div>
+	  </div>
+	</div>
+	<div class="my-4 my-xl-0 offset-1 offset-xl-0 col-10 col-xl-4">
+	  <div class="card">
+            <img class="card-img-top img-fluid" src="Images/Minecraft.jpg" alt="Minecraft">
+	    <div class="card-block mx-5 my-4">
+              <h3>Lorem ipsum dolor</h1>
+	      <p class="lead font-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mattis tortor, ac porta urna finibus ut. Nam nec euismod lacus, ac pellentesque lorem. Cras metus tortor, dignissim sit amet diam vel, egestas tempor metus. Mauris sit amet turpis a velit rhoncus aliquam vel quis magna. Etiam in eleifend ligula. Quisque vitae aliquam sem, lacinia rutrum urna. Morbi quis aliquam magna. Aliquam et neque neque.</p>
+	    
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
     </div>
 
     <!-- Optional JavaScript -->
@@ -64,7 +104,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    
+    <!--
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.js"></script>
     <script src="Scripts/HeightAdjuster.js"></script>
     <script>
@@ -74,7 +115,7 @@
       });
     </script>>
 
-
+    -->
 
   </body>
 
