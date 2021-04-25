@@ -1,0 +1,16 @@
+<div class="navbar navbar-inverse py-4">
+  <div class="container">   
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        <span class="text-orange">Passion</span>Fruit Youth
+      </div>
+    </div>
+
+    <div class="nav navbar-nav">
+      <span class="p-2">
+        <a href="{{ section.href }}" class="navbar-link mx-2" *ngFor="let section of sections" >{{ section.name }}</a>
+      </span>
+    </div>
+
+  </div>
+</div>

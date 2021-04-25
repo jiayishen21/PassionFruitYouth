@@ -1,0 +1,17 @@
+.button-orange {
+  border: none;
+  color: #ffffff;
+  background-color: #FFAD8C;
+  border-radius: 7px;
+  font-size: 20px;
+  box-shadow: inset 0 0 0 0 #bbe6b2;
+  transition: ease-out 0.3s;
+  outline: none;
+}
+
+a:hover.button-orange {
+  box-shadow: inset 300px 0 0 0 #bbe6b2;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+} 
