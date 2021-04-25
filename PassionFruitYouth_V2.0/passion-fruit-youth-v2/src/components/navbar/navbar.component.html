@@ -8,7 +8,9 @@
 
     <div class="nav navbar-nav">
       <span class="p-2">
-        <a href="{{ section.href }}" class="navbar-link mx-2" *ngFor="let section of sections" >{{ section.name }}</a>
+        <a href="{{ section.href }}" class="navbar-link mx-2 lead" *ngFor="let section of sections" >
+          {{ section.name }}
+        </a>
       </span>
     </div>
 
