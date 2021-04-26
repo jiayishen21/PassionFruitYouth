@@ -31,6 +31,41 @@
     padding-top: 13vh;
     padding-bottom: 13vh;
 }
+.py-14 {
+    padding-top: 14vh;
+    padding-bottom: 14vh;
+}
+
+.py-15 {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.py-16 {
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+}
+
+.py-17 {
+    padding-top: 17vh;
+    padding-bottom: 17vh;
+}
+
+.py-18 {
+    padding-top: 18vh;
+    padding-bottom: 18vh;
+}
+
+.py-19 {
+    padding-top: 19vh;
+    padding-bottom: 19vh;
+}
+
+.py-20 {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
 
 .my-6 {
     margin-top: 6vh;
@@ -64,6 +99,40 @@
     margin-top: 13vh;
     margin-bottom: 13vh;
 }
+.my-14 {
+    margin-top: 14vh;
+    margin-bottom: 14vh;
+}
+
+.my-15 {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.my-16 {
+    margin-top: 16vh;
+    margin-bottom: 16vh;
+}
+
+.my-17 {
+    margin-top: 17vh;
+    margin-bottom: 17vh;
+}
+
+.my-18 {
+    margin-top: 18vh;
+    margin-bottom: 18vh;
+}
+
+.my-19 {
+    margin-top: 19vh;
+    margin-bottom: 19vh;
+}
+
+.my-20 {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
 
 .mt-6 {
     margin-top: 6vh;
@@ -88,4 +157,31 @@
 }
 .mt-13 {
     margin-top: 13vh;
+}
+.mt-14 {
+    margin-top: 14vh;
+}
+
+.mt-15 {
+    margin-top: 15vh;
+}
+
+.mt-16 {
+    margin-top: 16vh;
+}
+
+.mt-17 {
+    margin-top: 17vh;
+}
+
+.mt-18 {
+    margin-top: 18vh;
+}
+
+.mt-19 {
+    margin-top: 19vh;
+}
+
+.mt-20 {
+    margin-top: 20vh;
 }
