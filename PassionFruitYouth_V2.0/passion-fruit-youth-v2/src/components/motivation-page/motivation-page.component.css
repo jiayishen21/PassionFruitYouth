@@ -1,0 +1,24 @@
+.section3 {
+    background-color: #FFAD8C;
+}
+
+.subtitle-pill {
+    display: inline;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+}
+
+.title-motivation {
+    color: #ffffff;
+    font-size: 4em;
+}
+
+.text-motivation {
+    color: #ECECEC;
+}
+
+.text-motivation-highlight {
+    color: #ffffff;
+    font-style: italic;
+}

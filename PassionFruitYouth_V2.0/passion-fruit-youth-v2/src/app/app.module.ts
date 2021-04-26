@@ -16,6 +16,8 @@ import { CommunityDescriptionComponent } from '../components/community-descripti
 import { OpportunitiesButtonComponent } from '../components/opportunities-button/opportunities-button.component';
 import { EventsButtonComponent } from '../components/events-button/events-button.component';
 import { PhotographerComponent } from '../components/photographer/photographer.component';
+import { ClassroomTransitionComponent } from '../components/classroom-transition/classroom-transition.component';
+import { MotivationPageComponent } from '../components/motivation-page/motivation-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { PhotographerComponent } from '../components/photographer/photographer.c
     CommunityDescriptionComponent,
     OpportunitiesButtonComponent,
     EventsButtonComponent,
-    PhotographerComponent
+    PhotographerComponent,
+    ClassroomTransitionComponent,
+    MotivationPageComponent
   ],
   imports: [
     BrowserModule,
