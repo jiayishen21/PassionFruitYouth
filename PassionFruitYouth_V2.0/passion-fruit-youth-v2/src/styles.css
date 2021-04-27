@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.noscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.noscroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.light-orange {
+    background-color: #FFF6EF;
+}
+
 .py-6 {
     padding-top: 6vh;
     padding-bottom: 6vh;

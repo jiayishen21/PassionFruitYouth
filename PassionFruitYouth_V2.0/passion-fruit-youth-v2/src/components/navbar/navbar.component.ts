@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
   constructor() { 
     this.sections = [
       new Section('Home', ''),
-      new Section('Opportunities', '/oppurtunities'),
+      new Section('Opportunities', '/opportunities'),
       new Section('Events', '/events'),
       new Section('Meet the Team', '/meet-the-team'),
       new Section('About', '/about')
