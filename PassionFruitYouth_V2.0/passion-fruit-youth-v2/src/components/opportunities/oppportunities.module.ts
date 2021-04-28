@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { OpportunitiesComponent } from './opportunities.component';
-import { SelectionPageComponent } from '../../app/selection-page/selection-page.component';
+import { SelectionPageComponent } from '../selection-page/selection-page.component';
 
 @NgModule({
   declarations: [

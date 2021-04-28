@@ -7,6 +7,11 @@
   display: inline-block;
 }
 
+.logo-strip {
+  height: 50px;
+  width: auto;
+}
+
 .text-orange {
   color: #FFAD8C;
 }

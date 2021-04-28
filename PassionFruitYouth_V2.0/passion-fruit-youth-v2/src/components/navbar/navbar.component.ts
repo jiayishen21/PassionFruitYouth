@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'navbar',
@@ -8,9 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   sections: Section[];
 
-  constructor() { 
+  constructor(private route: ActivatedRoute) { 
     this.sections = [
-      new Section('Home', ''),
+      new Section('Home', '/'),
       new Section('Opportunities', '/opportunities'),
       new Section('Events', '/events'),
       new Section('Meet the Team', '/meet-the-team'),
@@ -19,6 +20,10 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.route.paramMap
+      .subscribe(params => {
+        console.log(params);
+      });
   }
 
 }
