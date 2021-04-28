@@ -14,6 +14,8 @@ import { MotivationPageComponent } from '../components/motivation-page/motivatio
 import { DescriptionPageComponent } from '../components/description-page/description-page.component';
 import { HomeComponent } from '../components/home/home.component';
 import { OpportunitiesComponent } from '../components/opportunities/opportunities.component';
+import { SelectionPageComponent } from '../components/selection-page/selection-page.component';
+import { NotFoundComponent } from '../components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { OpportunitiesComponent } from '../components/opportunities/opportunitie
     MotivationPageComponent,
     DescriptionPageComponent,
     HomeComponent,
-    OpportunitiesComponent
+    OpportunitiesComponent,
+    SelectionPageComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +44,10 @@ import { OpportunitiesComponent } from '../components/opportunities/opportunitie
       {
         path: 'opportunities', 
         component: OpportunitiesComponent
+      },
+      {
+        path: '**',
+        component: NotFoundComponent
       }
     ])
     
