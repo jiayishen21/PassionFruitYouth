@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --sunray: #E6AC52;
+    --jasmine: #FBD987;
+    --new-york-pink: #EA9289;
+    --light-salmon: #FFAD8C;
+    --mandarin: #E57D49;
+    --seashell: #FFF6EF;
+}
+
 .noscroll::-webkit-scrollbar {
     display: none;
 }
@@ -9,7 +20,7 @@
 }
 
 .light-orange {
-    background-color: #FFF6EF;
+    background-color: seashell;
 }
 
 .py-6 {

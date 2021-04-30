@@ -1,16 +1,16 @@
-.section3 {
-  background-color: #FFAD8C;
+.motivation-page {
+  background-color: var(--light-salmon);
 }
 
 .subtitle-pill {
   display: inline;
-  color: #ffffff;
+  color: var(--white);
   border: 2px solid #ffffff;
   border-radius: 40px;
 }
 
 .title-motivation {
-  color: #ffffff;
+  color: var(--white);
   font-size: 4em;
 }
 
@@ -19,6 +19,6 @@
 }
 
 .text-motivation-highlight {
-  color: #ffffff;
+  color: var(--white);
   font-style: italic;
 }

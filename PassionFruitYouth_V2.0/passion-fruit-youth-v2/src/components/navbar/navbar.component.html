@@ -1,19 +1,15 @@
-<div class="navbar navbar-inverse py-4">
+<div class="navbar py-4">
   <div class="container">   
-    <div class="navbar-header">
-      <div class="navbar-brand">
-        <img src="../../assets/img/navbar-logo.png" alt="PassionFruit Youth" class="logo-strip"> 
-        <!-- <span class="text-orange">Passion</span>Fruit Youth -->
-      </div>
+    <div class="navbar-brand">
+      <img src="../../assets/img/navbar-logo.png" alt="PassionFruit Youth" class="logo-strip"> 
+      <!-- <span class="text-orange">Passion</span>Fruit Youth -->
     </div>
 
-    <div class="nav navbar-nav">
-      <span class="p-2">
-        <a routerLink="{{ section.href }}" routerLinkActive="active" class="navbar-link mx-2 lead" *ngFor="let section of sections" >
-          {{ section.name }}
-        </a>
-      </span>
-    </div>
+    <span class="p-2">
+      <a routerLink="{{ section.href }}" routerLinkActive="" class="navbar-link mx-2 lead" *ngFor="let section of sections" >
+        {{ section.name }}
+      </a>
+    </span>
 
   </div>
 </div>

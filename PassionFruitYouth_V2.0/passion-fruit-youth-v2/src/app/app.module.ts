@@ -16,6 +16,8 @@ import { HomeComponent } from '../components/home/home.component';
 import { OpportunitiesComponent } from '../components/opportunities/opportunities.component';
 import { SelectionPageComponent } from '../components/selection-page/selection-page.component';
 import { NotFoundComponent } from '../components/not-found/not-found.component';
+import { MusicPageComponent } from './music-page/music-page.component';
+import { BusinessPageComponent } from '../components/business-page/business-page.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { NotFoundComponent } from '../components/not-found/not-found.component';
     HomeComponent,
     OpportunitiesComponent,
     SelectionPageComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    MusicPageComponent,
+    BusinessPageComponent
   ],
   imports: [
     BrowserModule,

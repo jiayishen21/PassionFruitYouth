@@ -1,5 +1,5 @@
 .selection-card {
-  background-color: #FFF6EF;
+  background-color: var(--seashell);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,15 +9,15 @@
 
 a.selection-text {
   border: none;
-  color: #ffffff;
+  color: var(--white);
   font-size: 48px;
-  box-shadow: inset 0 0 #FBD987;
+  box-shadow: inset 0 0 var(--jasmine);
   transition: ease-out 0.3s;
   outline: none;
 }
 
 a:hover.selection-text {
-  color: #ffffff;
+  color: var(--white);
   text-decoration: none;
-  box-shadow: inset 0 -7px #FBD987;
+  box-shadow: inset 0 -7px var(--jasmine);
 }

@@ -1,5 +1,5 @@
 .section1 {
-  background-color: #FFF6EF;
+  background-color: var(--seashell);
 }
 
 .quote1 {
@@ -7,5 +7,5 @@
 }
 
 .text-orange {
-  color: #FFAD8C;
+  color: var(--light-salmon);
 }
