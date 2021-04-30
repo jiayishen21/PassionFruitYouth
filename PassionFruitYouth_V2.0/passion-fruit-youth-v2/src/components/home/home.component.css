@@ -7,19 +7,19 @@
 }
   
 .community-description {
-font-size: 20px;
+    font-size: 20px;
 }
 
 .title-motivation {
     color: var(--white);
     font-size: 4em;
-  }
+}
   
 .text-motivation {
-color: #ECECEC;
+    color: #ECECEC;
 }
 
 .text-motivation-highlight {
-color: var(--white);
-font-style: italic;
+    color: var(--white);
+    font-style: italic;
 }

@@ -1,0 +1,16 @@
+div.card-block {
+    background-color: #ffdfd1;
+    padding:14px;
+}
+
+p {
+    font-family:Inter;
+}
+
+a {
+    align-items:flex-end;
+}
+
+div.card {
+    margin:20px;
+}

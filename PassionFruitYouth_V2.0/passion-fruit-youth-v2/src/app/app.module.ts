@@ -11,6 +11,7 @@ import { SelectionPageComponent } from '../components/selection-page/selection-p
 import { NotFoundComponent } from '../components/not-found/not-found.component';
 import { MusicPageComponent } from './music-page/music-page.component';
 import { BusinessPageComponent } from '../components/business-page/business-page.component';
+import { OpportunityCardComponent } from '../components/opportunity-card/opportunity-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BusinessPageComponent } from '../components/business-page/business-page
     SelectionPageComponent,
     NotFoundComponent,
     MusicPageComponent,
-    BusinessPageComponent
+    BusinessPageComponent,
+    OpportunityCardComponent
   ],
   imports: [
     BrowserModule,
