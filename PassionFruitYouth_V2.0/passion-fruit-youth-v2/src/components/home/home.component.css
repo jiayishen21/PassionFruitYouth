@@ -1,0 +1,25 @@
+.quote1 {
+    font-size: 3.5em;
+}
+
+.quote2 {
+    font-size: 3em;
+}
+  
+.community-description {
+font-size: 20px;
+}
+
+.title-motivation {
+    color: var(--white);
+    font-size: 4em;
+  }
+  
+.text-motivation {
+color: #ECECEC;
+}
+
+.text-motivation-highlight {
+color: var(--white);
+font-style: italic;
+}
