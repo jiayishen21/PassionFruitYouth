@@ -10,7 +10,9 @@ import { OpportunitiesComponent } from '../components/opportunities/opportunitie
 import { NotFoundComponent } from '../components/not-found/not-found.component';
 import { BusinessPageComponent } from '../components/business-page/business-page.component';
 import { OpportunityCardComponent } from '../components/opportunity-card/opportunity-card.component';
+import { CardOrganizerComponent } from '../components/card-organizer/card-organizer.component';
 
+//Need to resave each time there is a new component
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +22,7 @@ import { OpportunityCardComponent } from '../components/opportunity-card/opportu
     NotFoundComponent,
     BusinessPageComponent,
     OpportunityCardComponent,
+    CardOrganizerComponent,
   ],
   imports: [
     BrowserModule,
