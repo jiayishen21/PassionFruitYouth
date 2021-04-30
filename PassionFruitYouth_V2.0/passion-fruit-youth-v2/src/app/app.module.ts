@@ -7,9 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from '../components/navbar/navbar.component';
 import { HomeComponent } from '../components/home/home.component';
 import { OpportunitiesComponent } from '../components/opportunities/opportunities.component';
-import { SelectionPageComponent } from '../components/selection-page/selection-page.component';
 import { NotFoundComponent } from '../components/not-found/not-found.component';
-import { MusicPageComponent } from './music-page/music-page.component';
 import { BusinessPageComponent } from '../components/business-page/business-page.component';
 import { OpportunityCardComponent } from '../components/opportunity-card/opportunity-card.component';
 
@@ -19,11 +17,9 @@ import { OpportunityCardComponent } from '../components/opportunity-card/opportu
     NavbarComponent,
     HomeComponent,
     OpportunitiesComponent,
-    SelectionPageComponent,
     NotFoundComponent,
-    MusicPageComponent,
     BusinessPageComponent,
-    OpportunityCardComponent
+    OpportunityCardComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,18 @@
-<selection-page></selection-page>
+<div class="container-fluid">
+    <div class="px-3">
+      <div class="row mt-2">
+  
+        <div *ngFor="let selectionCard of selectionCards" class="col-lg-6 col-xl-4">
+          <div class="selection-card mt-4 mx-4 mb-6" style="background-image: url('assets/img/{{ selectionCard.imgPath }}');">
+            <a href="{{ selectionCard.href }}" class="no-decor">
+              <div class="text-center py-14"><span class="selection-text p-3">{{ selectionCard.text }}</span></div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
 <business-page></business-page>
 <opportunity-card></opportunity-card>
