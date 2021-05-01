@@ -11,6 +11,8 @@ import { NotFoundComponent } from '../components/not-found/not-found.component';
 import { BusinessPageComponent } from '../components/business-page/business-page.component';
 import { OpportunityCardComponent } from '../components/opportunity-card/opportunity-card.component';
 import { CardOrganizerComponent } from '../components/card-organizer/card-organizer.component';
+import { EventsComponent } from '../components/events/events.component';
+import { FooterComponent } from '../components/footer/footer.component';
 
 //Need to resave each time there is a new component
 @NgModule({
@@ -23,6 +25,8 @@ import { CardOrganizerComponent } from '../components/card-organizer/card-organi
     BusinessPageComponent,
     OpportunityCardComponent,
     CardOrganizerComponent,
+    EventsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +39,10 @@ import { CardOrganizerComponent } from '../components/card-organizer/card-organi
       {
         path: 'opportunities', 
         component: OpportunitiesComponent
+      },
+      {
+        path: 'events',
+        component: EventsComponent
       },
       {
         path: '**',

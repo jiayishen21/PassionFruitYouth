@@ -1,0 +1,8 @@
+.events-title {
+    font-size: 56px;
+}
+
+.title-highlight {
+    color: var(--light-salmon);
+    font-weight: bold;
+}
