@@ -6,10 +6,68 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+  logos: Logo[];
+  sections: Section[];
 
-  constructor() { }
+  constructor() {
+    this.logos = [
+      new Logo('twitter', 'assets/img/twitter-logo.png', 'https://twitter.com/pfyouth2021'),
+      new Logo('instagram', 'assets/img/instagram-logo.png', 'https://www.instagram.com/passionfruityouth/'),
+      new Logo('linkedin', 'assets/img/linkedin-logo.png', 'https://www.linkedin.com/company/passionfruit-youth'),
+      new Logo('facebook', 'assets/img/facebook-logo.png', 'https://www.facebook.com/passionfruityouth')
+    ];
+    this.sections = [
+      new Section('Home', '/'),
+      new Section('Opportunities', '/opportunities'),
+      new Section('Events', '/events'),
+      new Section('Meet the Team', '/meet-the-team'),
+      new Section('About', '/about')
+    ];
+  }
 
   ngOnInit(): void {
   }
 
+}
+
+class Logo {
+  private _name: String;
+  private _imgPath: String;
+  private _href: String;
+
+  constructor(name: String, imgPath: String, href: String) {
+    this._name = name;
+    this._imgPath = imgPath;
+    this._href = href;
+  }
+
+  get name() {
+    return this._name;
+  }
+
+  get imgPath() {
+    return this._imgPath;
+  }
+
+  get href() {
+    return this._href;
+  }
+}
+
+class Section {
+  private _name: String;
+  private _href: String;
+
+  constructor(name: String, href: String) {
+    this._name = name;
+    this._href = href;
+  }
+
+  get name() {
+    return this._name;
+  }
+
+  get href() {
+    return this._href;
+  }
 }

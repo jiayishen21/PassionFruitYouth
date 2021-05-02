@@ -2,28 +2,21 @@
     <div class="row">
         <div class="mx-20 px-5">
             <h4 class="text-white">Contact Us</h4>
-            <p class="text-white lead">
+            <p class="text-white lead pb-4">
                 contact@passionfruityouth.org<br>
                 647-999-9999
             </p>
     
-            <a href="https://twitter.com/pfyouth2021" target="_blank" class="mr-4">
-                <img src="assets/img/twitter-logo.png" alt="twitter" class="img-fluid logo-img">
-            </a>
-            <a href="https://www.instagram.com/passionfruityouth/" target="_blank" class="mr-4">
-                <img src="assets/img/instagram-logo.png" alt="insgram" class="img-fluid logo-img">
-            </a>
-            <a href="https://www.linkedin.com/company/passionfruit-youth" target="_blank" class="mr-4">
-                <img src="assets/img/linkedin-logo.png" alt="linkedin" class="img-fluid logo-img">
-            </a>
-            <a href="https://www.facebook.com/passionfruityouth" target="_blank" class="mr-4">
-                <img src="assets/img/linkedin-logo.png" alt="linkedin" class="img-fluid logo-img">
+            <a *ngFor="let logo of logos" href="{{ logo.href }}" target="_blank" class="mr-4 footer-link">
+                <img src="{{ logo.imgPath }}" alt="{{ logo.name }}" class="img-fluid logo-img">
             </a>
         </div>
 
         <div>
             <h4 class="text-white">PassionFruit Youth</h4>
-            <!-- pages here -->
+            <a routerLink="{{ section.href }}" class="footer-link lead" *ngFor="let section of sections" >
+                {{ section.name }}<br>
+            </a>
         </div>
     </div>
     

@@ -7,10 +7,13 @@
     height: 32px;
 }
 
-.logo-link {
-    
+.footer-link {
+    color: var(--white);
+    transition: ease-out 0.3s;
 }
 
-:hover.logo-link {
-    
+:hover.footer-link {
+    text-decoration: none;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px #595959);
 }

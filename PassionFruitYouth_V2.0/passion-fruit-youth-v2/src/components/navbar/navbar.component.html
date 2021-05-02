@@ -6,7 +6,7 @@
     </div>
 
     <span class="p-2">
-      <a routerLink="{{ section.href }}" routerLinkActive="" class="navbar-link mx-2 lead" *ngFor="let section of sections" >
+      <a *ngFor="let section of sections" routerLink="{{ section.href }}" routerLinkActive="" class="navbar-link mx-2 lead">
         {{ section.name }}
       </a>
     </span>
