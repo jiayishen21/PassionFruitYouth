@@ -14,9 +14,29 @@
     </div>
   </div>
   
-<div *ngFor="let section of sections" class="container-fluid py-17" style="background-image: url('assets/img/{{ section.imgName }}');" id="{{ section.id }}">
-  <div class="text-center py-20 ">
+<div *ngFor="let section of sections">
+  <div class="container-fluid py-17" style="background-image: url('assets/img/{{ section.imgName }}');" id="{{ section.id }}">
+    <div class="text-center py-20 ">
       <h2 class="section-title">{{ section.name }}</h2>
+    </div>
   </div>
+  
+  <div class="row mx-10 my-10">
+    <div class="col-xl-6 px-5" *ngFor="let opportunity of section.opportunities">
+      <div class="card opportunity-card pb-3 my-5">
+          <img src="assets/img/Appleworker.jpg" alt="" class="card-img-top img-fluid opportunity-img">
+          <div class="card-block p-5">
+              <h3 class="card-title">{{ opportunity.name }}</h3>
+              <p>{{ opportunity.time }}</p>
+              <br>
+              <div class="card-button mr-5">
+                <a href="" class="button-light-salmon px-5 py-3" target="_blank">28, oakhill Cres.</a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  
 </div>
-<card-organizer></card-organizer>
+
+  
