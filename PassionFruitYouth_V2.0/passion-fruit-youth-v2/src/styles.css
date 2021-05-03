@@ -10,6 +10,10 @@
     --seashell: #FFF6EF;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .noscroll::-webkit-scrollbar {
     display: none;
 }
