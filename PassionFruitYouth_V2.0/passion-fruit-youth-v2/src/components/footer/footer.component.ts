@@ -32,12 +32,12 @@ export class FooterComponent implements OnInit {
 
 class Logo {
   private _name: String;
-  private _imgPath: String;
+  private _imgName: String;
   private _href: String;
 
-  constructor(name: String, imgPath: String, href: String) {
+  constructor(name: String, imgName: String, href: String) {
     this._name = name;
-    this._imgPath = imgPath;
+    this._imgName = imgName;
     this._href = href;
   }
 
@@ -45,8 +45,8 @@ class Logo {
     return this._name;
   }
 
-  get imgPath() {
-    return this._imgPath;
+  get imgName() {
+    return this._imgName;
   }
 
   get href() {

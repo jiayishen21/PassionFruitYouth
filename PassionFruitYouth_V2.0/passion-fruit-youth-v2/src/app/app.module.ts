@@ -8,7 +8,6 @@ import { NavbarComponent } from '../components/navbar/navbar.component';
 import { HomeComponent } from '../components/home/home.component';
 import { OpportunitiesComponent } from '../components/opportunities/opportunities.component';
 import { NotFoundComponent } from '../components/not-found/not-found.component';
-import { BusinessPageComponent } from '../components/business-page/business-page.component';
 import { OpportunityCardComponent } from '../components/opportunity-card/opportunity-card.component';
 import { CardOrganizerComponent } from '../components/card-organizer/card-organizer.component';
 import { EventsComponent } from '../components/events/events.component';
@@ -22,11 +21,10 @@ import { FooterComponent } from '../components/footer/footer.component';
     HomeComponent,
     OpportunitiesComponent,
     NotFoundComponent,
-    BusinessPageComponent,
     OpportunityCardComponent,
     CardOrganizerComponent,
     EventsComponent,
-    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
