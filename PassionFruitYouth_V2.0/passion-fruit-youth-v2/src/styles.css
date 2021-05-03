@@ -24,7 +24,7 @@ html {
 }
 
 .background-seashell {
-    background-color: seashell;
+    background-color: var(--seashell);
 }
 
 .background-light-salmon {
