@@ -17,9 +17,6 @@ export class OpportunitiesComponent implements OnInit {
         'business',
         [
           new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828'),
-          new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828'),
-          new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828'),
-          new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828')
         ]
       ),
       new Section(
@@ -27,7 +24,6 @@ export class OpportunitiesComponent implements OnInit {
         'stem-transition.png',
         'stem',
         [
-          new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828'),
         ]
       ),
       new Section(
@@ -35,7 +31,6 @@ export class OpportunitiesComponent implements OnInit {
         'medical-transition.png',
         'medical',
         [
-          new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828'),
         ]
       ),
       new Section(
@@ -68,8 +63,15 @@ export class OpportunitiesComponent implements OnInit {
       new SelectionCard('Art', 'art.png', '/opportunities#art'),
       new SelectionCard('Music', 'music.png', '/opportunities#music'),
     ];
+  }
 
-   }
+  displayEmpty() {
+    for(let section of this.sections) {
+      if(section.opportunities.length == 0) {
+        document.getElementById('{{ section.name }}-none')!.innerHTML = 'Opportunities coming soon';
+      }
+    }
+  }
 
   ngOnInit(): void {
   }
