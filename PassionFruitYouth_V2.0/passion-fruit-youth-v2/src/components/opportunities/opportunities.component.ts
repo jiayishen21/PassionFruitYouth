@@ -21,6 +21,43 @@ export class OpportunitiesComponent implements OnInit {
           new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828'),
           new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828')
         ]
+      ),
+      new Section(
+        'S.T.E.M.',
+        'stem-transition.png',
+        'stem',
+        [
+          new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828'),
+        ]
+      ),
+      new Section(
+        'Health',
+        'medical-transition.png',
+        'medical',
+        [
+          new OpportunityCard('Sales Associate, Home Depot', 'Mondays, 6:00pm to 8:00pm', 'Bayview Secondary School', 'https://www.google.com/maps/place/Bayview+Secondary+School/@43.8801055,-79.4277614,14.5z/data=!3m1!5s0x882b2afac9f1ff7d:0x9bc849bad728cacc!4m5!3m4!1s0x0:0x4e66de5dc59407d3!8m2!3d43.8779669!4d-79.4151828'),
+        ]
+      ),
+      new Section(
+        'Literature',
+        'literature-transition.png',
+        'literature',
+        [
+        ]
+      ),
+      new Section(
+        'Art',
+        'art-transition.png',
+        'art',
+        [
+        ]
+      ),
+      new Section(
+        'Music',
+        'music-transition.png',
+        'music',
+        [
+        ]
       )
     ];
     this.selectionCards = [
