@@ -78,6 +78,10 @@ border: 2px solid #ffffff;
 border-radius: 40px;
 }
 
+.event-title {
+    font-size: 54px;
+}
+
 .py-6 {
     padding-top: 6vh;
     padding-bottom: 6vh;
