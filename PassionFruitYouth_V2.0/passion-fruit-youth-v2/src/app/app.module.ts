@@ -11,6 +11,7 @@ import { NotFoundComponent } from '../components/not-found/not-found.component';
 import { EventsComponent } from '../components/events/events.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { MinecraftZooComponent } from '../components/minecraft-zoo/minecraft-zoo.component';
+import { MeetTheTeamComponent } from '../components/meet-the-team/meet-the-team.component';
 
 //Need to resave each time there is a new component
 @NgModule({
@@ -22,7 +23,8 @@ import { MinecraftZooComponent } from '../components/minecraft-zoo/minecraft-zoo
     NotFoundComponent,
     EventsComponent,
     FooterComponent,
-    MinecraftZooComponent
+    MinecraftZooComponent,
+    MeetTheTeamComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +45,10 @@ import { MinecraftZooComponent } from '../components/minecraft-zoo/minecraft-zoo
       {
         path: 'events/minecraft-zoo',
         component: MinecraftZooComponent
+      },
+      {
+        path: 'meet-the-team',
+        component: MeetTheTeamComponent
       },
       {
         path: '**',
