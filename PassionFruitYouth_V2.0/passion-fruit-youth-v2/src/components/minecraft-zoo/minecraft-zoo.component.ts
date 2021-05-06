@@ -6,8 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./minecraft-zoo.component.css']
 })
 export class MinecraftZooComponent implements OnInit {
+  imgPaths: String[];
 
-  constructor() { }
+  constructor() { 
+    this.imgPaths = [
+      'assets/img/minecraft-zoo-build1.png',
+      'assets/img/minecraft-zoo-build2.png',
+      'assets/img/minecraft-zoo-build3.png',
+      'assets/img/minecraft-zoo-build4.png',
+      'assets/img/minecraft-zoo-build5.png',
+      'assets/img/minecraft-zoo-build6.png'
+    ]
+  }
 
   ngOnInit(): void {
   }

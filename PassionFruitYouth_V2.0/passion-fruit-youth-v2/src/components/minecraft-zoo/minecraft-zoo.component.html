@@ -19,5 +19,26 @@
                 for the animals. 
             </p>
         </div>
+
+        <div class="mt-12">
+            <a href="/events/minecraft-zoo#photos" class="button-jasmine px-5 py-3">
+                View builds
+            </a>
+        </div>
+    </div>
+    
+</div>
+<div class="d-flex justify-content-center my-15" id="photos">
+    <div class="container-fluid mx-20">
+        <div class="row">
+            <div *ngFor="let imgPath of imgPaths" class="col-lg-6">
+                <div class="d-flex justify-content-center my-3">
+                    <img src="{{ imgPath }}" alt="minecraft build" class="build-img img-fluid">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+
+
