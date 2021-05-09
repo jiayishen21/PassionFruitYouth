@@ -65,12 +65,11 @@ export class OpportunitiesComponent implements OnInit {
     ];
   }
 
-  displayEmpty() {
-    for(let section of this.sections) {
-      if(section.opportunities.length == 0) {
-        document.getElementById('{{ section.name }}-none')!.innerHTML = 'Opportunities coming soon';
-      }
+  displayEmpty(opportunities: OpportunityCard[]) {
+    if(opportunities.length == 0) {
+      return 'New opportunities coming soon';
     }
+    return '';
   }
 
   ngOnInit(): void {

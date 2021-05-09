@@ -218,70 +218,70 @@ border-radius: 40px;
 }
 
 .mx-6 {
-    margin-left: 6vh;
-    margin-right: 6vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 .mx-7 {
-    margin-left: 7vh;
-    margin-right: 7vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
 }
 .mx-8 {
-    margin-left: 8vh;
-    margin-right: 8vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 .mx-9 {
-    margin-left: 9vh;
-    margin-right: 9vh;
+    margin-left: 9vw;
+    margin-right: 9vw;
 }
 .mx-10 {
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 .mx-11 {
-    margin-left: 11vh;
-    margin-right: 11vh;
+    margin-left: 11vw;
+    margin-right: 11vw;
 }
 .mx-12 {
-    margin-left: 12vh;
-    margin-right: 12vh;
+    margin-left: 12vw;
+    margin-right: 12vw;
 }
 .mx-13 {
-    margin-left: 13vh;
-    margin-right: 13vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
 }
 .mx-14 {
-    margin-left: 14vh;
-    margin-right: 14vh;
+    margin-left: 14vw;
+    margin-right: 14vw;
 }
 
 .mx-15 {
-    margin-left: 15vh;
-    margin-right: 15vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 .mx-16 {
-    margin-left: 16vh;
-    margin-right: 16vh;
+    margin-left: 16vw;
+    margin-right: 16vw;
 }
 
 .mx-17 {
-    margin-left: 17vh;
-    margin-right: 17vh;
+    margin-left: 17vw;
+    margin-right: 17vw;
 }
 
 .mx-18 {
-    margin-left: 18vh;
-    margin-right: 18vh;
+    margin-left: 18vw;
+    margin-right: 18vw;
 }
 
 .mx-19 {
-    margin-left: 19vh;
-    margin-right: 19vh;
+    margin-left: 19vw;
+    margin-right: 19vw;
 }
 
 .mx-20 {
-    margin-left: 20vh;
-    margin-right: 20vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .mt-6 {
@@ -386,4 +386,56 @@ border-radius: 40px;
 
 .mb-20 {
     margin-bottom: 20vh;
+}
+
+.ml-6 {
+    margin-left: 6vw;
+}
+.ml-7 {
+    margin-left: 7vw;
+}
+.ml-8 {
+    margin-left: 8vw;
+}
+.ml-9 {
+    margin-left: 9vw;
+}
+.ml-10 {
+    margin-left: 10vw;
+}
+.ml-11 {
+    margin-left: 11vw;
+}
+.ml-12 {
+    margin-left: 12vw;
+}
+.ml-13 {
+    margin-left: 13vw;
+}
+.ml-14 {
+    margin-left: 14vw;
+}
+
+.ml-15 {
+    margin-left: 15vw;
+}
+
+.ml-16 {
+    margin-left: 16vw;
+}
+
+.ml-17 {
+    margin-left: 17vw;
+}
+
+.ml-18 {
+    margin-left: 18vw;
+}
+
+.ml-19 {
+    margin-left: 19vw;
+}
+
+.ml-20 {
+    margin-bottom: 20vw;
 }

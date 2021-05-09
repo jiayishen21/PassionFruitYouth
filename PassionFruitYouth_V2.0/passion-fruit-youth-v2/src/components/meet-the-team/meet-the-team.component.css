@@ -1,0 +1,61 @@
+.sub {
+    font-size: 25px;
+}
+
+.meet-the-team-title {
+    font-size: 90px;
+}
+
+.img-padding {
+    padding-left: 18vw;
+    padding-right: 18vw;
+}
+
+.profile-padding {
+    padding-left: 16vw;
+    padding-right: 16vw;
+}
+
+.name-caption {
+    font-size: 22px;
+}
+
+.position-caption {
+    font-size: 18px;
+}
+
+.profile-img {
+    width: 27vw;
+    height: 27vw;
+    object-fit: cover;
+    transition: ease-out 0.3s;
+}
+
+:hover.profile-img {
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px #7c7c7c);
+}
+
+.img-background {
+    position: relative;
+}
+
+.active-name {
+  font-size: 50px;
+  background-color: white;
+  position: absolute;
+  bottom: 4vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.active-img {
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+    transition: ease-out 0.3s;
+}
+
+.hidden {
+    visibility: hidden;
+}

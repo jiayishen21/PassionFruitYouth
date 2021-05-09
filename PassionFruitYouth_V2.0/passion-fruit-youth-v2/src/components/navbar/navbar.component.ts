@@ -32,7 +32,7 @@ class Section {
   private _name: String;
   private _href: String;
 
-  constructor(name:String, href:String) {
+  constructor(name: String, href: String) {
     this._name = name;
     this._href = href;
   }
