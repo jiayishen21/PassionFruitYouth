@@ -15,7 +15,7 @@ export class NavbarComponent implements OnInit {
       new Section('Opportunities', '/opportunities'),
       new Section('Events', '/events'),
       new Section('Meet the Team', '/meet-the-team'),
-      new Section('About', '/about')
+      new Section('About', '/aboutus')
     ];
   }
 
