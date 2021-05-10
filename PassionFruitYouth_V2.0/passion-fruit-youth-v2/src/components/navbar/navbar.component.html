@@ -1,6 +1,8 @@
-<div class="navbar background-seashell py-4">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar background-seashell py-4" id="navbar">
   <div class="container">   
-    <div class="navbar-brand">
+    <div class="navbar-brand navbar-logo">
       <img src="../../assets/img/navbar-logo.png" alt="PassionFruit Youth" class="logo-strip"> 
       <!-- <span class="text-orange">Passion</span>Fruit Youth -->
     </div>
@@ -10,6 +12,9 @@
         {{ section.name }}
       </a>
     </span>
+    <a href="javascript:void(0);" class="icon link-black" (click)="changeNav()">
+      <i class="fa fa-bars"></i>
+    </a>
 
   </div>
 </div>

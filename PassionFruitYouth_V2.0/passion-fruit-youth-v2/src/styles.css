@@ -31,6 +31,10 @@ html {
     color: var(--light-salmon);
   }  
 
+.text-black {
+    color: var(--black);
+}
+
 .button-light-salmon {
     border: none;
     color: var(--white);
