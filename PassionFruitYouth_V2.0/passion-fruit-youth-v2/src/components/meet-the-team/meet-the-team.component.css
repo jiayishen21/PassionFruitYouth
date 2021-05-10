@@ -40,6 +40,10 @@
     position: relative;
 }
 
+.blurb-container {
+    width: 50vw;
+}
+
 .active-name {
   font-size: 3vw;
   background-color: white;
