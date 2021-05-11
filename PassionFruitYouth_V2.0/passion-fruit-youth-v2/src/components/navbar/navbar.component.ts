@@ -28,11 +28,11 @@ export class NavbarComponent implements OnInit {
 
   changeNav() {
     var x = document.getElementById("navbar");
-    if (x!.className === "navbar background-seashell py-4") {
+    if (x!.className === "navbar py-4") {
       x!.className += " responsive";
     } 
     else {
-      x!.className = "navbar background-seashell py-4";
+      x!.className = "navbar py-4";
     }
   }
 

@@ -4,7 +4,31 @@
 }
 
 .quote1 {
-    font-size: 3.5em;
+    font-size: 45px;
+}
+
+@media screen and (min-width: 762px) {
+    .quote1 {
+        font-size: 70px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .quote1 {
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .quote1 {
+        font-size: 50px !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .quote1 {
+        font-size: 60px !important;
+    }
 }
 
 .quote2 {

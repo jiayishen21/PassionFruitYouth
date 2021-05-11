@@ -45,19 +45,16 @@
     display: none;
   }
 
-  .navbar a.icon {
+  .navbar .icon {
     float: right;
     display: block;
+    position: absolute;
+    top: 20px;
+    right: 14.5vw;
   }
 
   .navbar.responsive {
     position: relative;
-  }
-
-  .navbar.responsive .icon {
-    position: absolute;
-    right: 14.45vw;
-    top: 2.575vh;
   }
 
   .navbar.responsive .navbar-link {
