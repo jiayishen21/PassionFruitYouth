@@ -39,8 +39,12 @@ html {
     border: none;
     color: var(--white);
     background-color: var(--light-salmon);
-    border-radius: 7px;
-    font-size: 20px;
+    border-radius: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
     box-shadow: inset 0 0 0 0 var(--jasmine);
     transition: ease-out 0.3s;
     outline: none;
@@ -57,8 +61,12 @@ html {
     border: none;
     color: var(--white);
     background-color: var(--jasmine);
-    border-radius: 7px;
-    font-size: 20px;
+    border-radius: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
     box-shadow: inset 0 0 0 0 var(--light-salmon);
     transition: ease-out 0.3s;
     outline: none;
@@ -69,6 +77,17 @@ html {
     text-decoration: none;
     color: var(--white);
     cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+    .button-light-salmon, .button-jasmine {
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        font-size: 20px;
+        border-radius: 7px;
+    }
 }
 
 .subtitle-pill {
