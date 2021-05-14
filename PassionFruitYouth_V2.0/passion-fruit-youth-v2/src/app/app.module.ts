@@ -53,7 +53,7 @@ import { AboutUsComponent } from '../components/about-us/about-us.component';
         component: MeetTheTeamComponent
       },
       {
-        path: 'about-us',
+        path: 'about',
         component: AboutUsComponent
       },
       {

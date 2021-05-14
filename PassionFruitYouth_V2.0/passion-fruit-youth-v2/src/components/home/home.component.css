@@ -38,8 +38,34 @@
     }
 
     .community-description {
-        font-size: 1.5vw;
+        font-size: 20px;
     }
+
+    .hiker-img {
+        max-width:  50vw !important;
+        max-height: 55vw !important;
+    }
+
+    .title-motivation {
+        font-size: 4em !important;
+    }
+}
+
+.title-motivation {
+    color: var(--white);
+    font-size: 2.8em;
+}
+
+.hiker-img {
+    max-width: 85vw;
+    max-height: 90vw;
+}
+
+.subtitle-pill {
+    display: inline;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 40px;
 }
 
 .artist-img {
@@ -52,13 +78,11 @@
     }
 }
 
-.title-motivation {
-    color: var(--white);
-    font-size: 4em;
-}
+
   
 .text-motivation {
     color: #ECECEC;
+    overflow: visible;
 }
 
 .text-motivation-highlight {

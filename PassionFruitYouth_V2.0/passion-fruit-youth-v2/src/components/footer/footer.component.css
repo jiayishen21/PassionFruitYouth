@@ -17,3 +17,7 @@
     cursor: pointer;
     filter: drop-shadow(0 0 10px #595959);
 }
+
+@media screen and (max-width: 992px) {
+    
+}
