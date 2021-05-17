@@ -14,3 +14,8 @@
 .event-img {
     border-radius: 10px;
 }
+
+.event-home-img {
+    max-width: 90vw;
+    max-height: 75vw;
+}

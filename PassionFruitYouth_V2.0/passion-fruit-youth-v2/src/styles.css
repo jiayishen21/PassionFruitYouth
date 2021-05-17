@@ -45,7 +45,7 @@ html {
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-size: 3vw;
-    box-shadow: inset 0 0 0 0 var(--jasmine);
+    box-shadow: inset 0 0 0 0.01px var(--jasmine);
     transition: ease-out 0.3s;
     outline: none;
 }
@@ -67,7 +67,7 @@ html {
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-size: 3vw;
-    box-shadow: inset 0 0 0 0 var(--light-salmon);
+    box-shadow: inset 0 0 0 0.1px var(--light-salmon);
     transition: ease-out 0.3s;
     outline: none;
 }
