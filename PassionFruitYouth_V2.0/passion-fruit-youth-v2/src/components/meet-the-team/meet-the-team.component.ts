@@ -166,8 +166,16 @@ export class MeetTheTeamComponent implements OnInit {
     activeBlurb!.style.marginTop = '1.5vh';
     activeBlurb!.innerHTML = profile.description;
 
+    var activeImage = document.getElementById('active-image');
+    activeImage!.setAttribute('src', 'assets/img/profiles/' + profile.imgName);
+    if (activeImage!.className === "") {
+      activeImage!.className = "active-img";
+    } 
+
     document.getElementById('active-name')!.innerHTML = profile.name;
-    document.getElementById('active-image')!.setAttribute('src', 'assets/img/profiles/' + profile.imgName);
+    
+
+
     this.scrollToTop();
   }
 
