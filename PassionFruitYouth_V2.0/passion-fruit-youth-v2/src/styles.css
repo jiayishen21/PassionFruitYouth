@@ -8,6 +8,7 @@
     --light-salmon: #FFAD8C;
     --mandarin: #E57D49;
     --seashell: #FFF6EF;
+    --lavender: #EFF3FF;
 }
 
 html {
@@ -21,6 +22,10 @@ html {
 
 .background-seashell {
     background-color: var(--seashell);
+}
+
+.background-lavender {
+    background-color: var(--lavender);
 }
 
 .background-light-salmon {
