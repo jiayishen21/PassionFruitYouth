@@ -28,9 +28,16 @@ export class MeetTheTeamComponent implements OnInit {
       //most important member!
       new Profile(
       'Lucas Shen', 
-      'stephanie-li.png',
+      'lucas-shen.png',
       'Chief of Web Development',
-      ''
+      'Hi, my name is Lucas. I enjoy playing League of Legends, watching anime, and winning anything. I joined PassionFruit Youth to develop better social as an ambassador but received a random promotion to web developer. That is all I will say, if you want to know more, message @lucas.shen21 on instagram for a slim chance for you to learn more about me. Good day.'
+      ),
+
+      new Profile(
+      'Kayley Chan', 
+      'lucas-shen.png',
+      'Web Development Coordinator',
+      'Heyo, PFY web dev Kayley Chan here. I joined PFY to gain experience, connections, and beef up that uni application :) As a competitive dancer/contortionist, I’ve got the spine of a 90 year old. Find me @kayreychan on ig if you want to vent, or want an obscenely long (but organized!) anime watchlist.'
       ),
 
       //finance
@@ -103,6 +110,13 @@ export class MeetTheTeamComponent implements OnInit {
       'shirley-huang.png',
       'Marketing & Design Coordinator',
       'Heyo! I&lsquo;m Shirley Huang, I joined PassionFruit as a way to connect and meet new people around the community. I love making art, playing video games, watching anime, and listening to music :D If you want to message me (or wanna talk about anime) find me @Bunnyhoopp.13 on Instagram <3'
+      ),
+
+      new Profile(
+      'Caitlyn Tan',
+      'caitlyn-tan.png',
+      'Marketing & Design Coordinator',
+      'Hello there! I’m Caitlyn Tan, and I’m thrilled to be part of PassionFruit’s marketing team this year. In my free time, I enjoy vibing to music and spending quality time with friends. I joined PassionFruit in hopes of new experiences and meeting many of the wonderful people in our community! Find me on Instagram @caitlyn.taan if you ever wanna chat :D'
       ),
 
       //logistics
