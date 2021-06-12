@@ -30,12 +30,12 @@ export class MeetTheTeamComponent implements OnInit {
       'Lucas Shen', 
       'lucas-shen.png',
       'Chief of Web Development',
-      'Hi, my name is Lucas. I enjoy playing League of Legends, watching anime, and winning anything. I joined PassionFruit Youth to develop better social as an ambassador but received a random promotion to web developer. That is all I will say, if you want to know more, message @lucas.shen21 on instagram for a slim chance for you to learn more about me. Good day.'
+      'Hi, my name is Lucas. I enjoy playing League of Legends, watching anime, and winning anything. I joined PassionFruit Youth to develop better social as an ambassador but received a promotion to web developer. That is all I will say, if you want to know more, message @lucas.shen21 on instagram for a slim chance for you to learn more about me. Good day.'
       ),
 
       new Profile(
       'Kayley Chan', 
-      'lucas-shen.png',
+      'kayley-chan.png',
       'Web Development Coordinator',
       'Heyo, PFY web dev Kayley Chan here. I joined PFY to gain experience, connections, and beef up that uni application :) As a competitive dancer/contortionist, I’ve got the spine of a 90 year old. Find me @kayreychan on ig if you want to vent, or want an obscenely long (but organized!) anime watchlist.'
       ),
