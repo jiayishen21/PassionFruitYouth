@@ -1,33 +1,19 @@
-.display-5 {
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 1.2;
-}
-	
-.mb-22,
-.my-22 {
-    margin-bottom: 18rem !important;
+.about-us-title {
+  font-size: 3em;
 }
 
-.ml-5 {
-    margin-left: 5rem !important;
+.group-photo {
+  max-width: 80%;
+  height: auto;
 }
-.mr-5 {
-    margin-right: 5rem !important;
+
+.img-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.mr-20 {
-    margin-right: 20rem !important;
-}
-.pl-10,
-.px-10 {
-    padding-left: 10rem !important;
-}
-.pr-10 {
-    padding-right: 10rem !important;
-}
-.ml-0 {
-    margin-left: 0rem !important;
-}
-.mr-0 {
-    margin-right: 0rem !important;
+
+.px-6 {
+  padding-left: 6em;
+  padding-right: 6rem;
 }
